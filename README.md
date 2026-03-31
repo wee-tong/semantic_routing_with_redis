@@ -1,4 +1,4 @@
-# 🚀 Semantic Router with Redis and Java
+# Semantic Router with Redis and Java
 
 A dynamic, data-driven **semantic routing system** built with Java and Redis. This project demonstrates how to route user queries based on **meaning (semantic similarity)** instead of hardcoded rules, enabling flexible and scalable intelligent applications.
 
