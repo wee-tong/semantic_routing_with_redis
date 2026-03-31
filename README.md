@@ -15,21 +15,16 @@ Instead of relying on keyword matching, this system uses embeddings and similari
 🔄 Hot updates without redeploying
 🏗️ Decoupled architecture (data vs logic)
 📡 Extensible via service/API layer
-🏗️ Architecture Overview
-            User Query
-                 ↓
-        ┌───────────────────┐
-        │ Semantic Router   │
-        └───────────────────┘
-           ↓       ↓       ↓
-        Sports   Tech   Blocked
-🔁 System Flow
-Initialize
-Load default routing configuration
-Store in Redis
-Update
-Users modify categories via service/API
-Redis is updated dynamically
-Runtime
-Router loads config from Redis
-Builds semantic routes
+
+Example Use Cases
+✅ Route FAQs to low-cost models
+🚫 Block restricted topics (e.g., politics)
+🤖 Send complex queries to advanced LLMs
+🛠️ Build multi-intent chatbots
+📊 Intelligent request classification
+
+Prerequisites
+Java 17+
+Redis
+Maven or Gradle
+Embedding/vectorizer dependency
